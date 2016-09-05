@@ -14,13 +14,7 @@ class.
 
 Submit detailed answers to these in this file via a pull request.
 
-## Project Wireframe
-
-```md
-A wireframe of what your game project will look like.
-
-Wireframe sketches:
-```
+## Project Wireframes
 
 [Wireframe 1](./assets/images/wireframe-1.png)
 
@@ -31,7 +25,7 @@ In order to stay consistent with the provided API, the following data structures
 will be used to represent key entities:
 
 Entity: User
-Every user will be represented by a "user" object every "user" object will
+Every user will be represented by a "user" object. Every "user" object will
 include a "games" property, whose value will be an array of "game" objects
 
 Entity: Game
@@ -49,7 +43,12 @@ value of a single element in "cells".
 ## Representing markup of the game board in JS
 
 ```md
-How you will take the markup of the game board and represent it in JS
+The board will be represented visually on the page by a 3x3 grid of HTML
+elements. Each of these elements will have a shared class and a unique
+identifier. Each identifier will be linked to a JS event handler, such that when
+a board element is clicked, a function is fired that changes the appearance of
+the board in the UI (by updating the DOM to paint an X or O in that element,
+depending on whose turn it is).
 
 ```
 
@@ -91,27 +90,43 @@ finish games whose eventual outcome is already obvious.
 ## Modularity
 
 ```md
-How do you plan to keep your code modular?
+As modeled in last week's trainings, I will maintain separate scripts for event
+handlers, UI functions, and API functions, exporting objects from each script
+only as needed.
+
+In addition, I will separate scripts describing user authentication and profile
+functionality from scripts describing game functionality.
 
 ```
 
 ## Creative Spin
 
 ```md
-What creative spin will you add to your project?
+My version of the browser-based Tic-Tac-Toe game will include a user
+dashboard tab that allows players to interpret their game history at a glance,
+include win-loss record and average duration (in turns) of each game they have
+played.
+
+I also plan to incorporate a sleek, minimalist aesthetic that draws and holds
+user focus on the game board.
 
 ```
 
 ## Version Control
 
 ```md
-How you will use version control to backup / track your project?
+All files that make up the project will be stored in a GitHub repository that is
+maintained both locally and remotely. Changes will be made locally, documented
+via small and frequent commits, and backed up frequently by pushing to the
+remote repository.
 
 ```
 
 ## Bonuses
 
 ```md
-Do you plan to attempt any of the bonuses?
+At present, I do not plan on attempting any of the bonuses. If I satisfy the
+core requirements with time to spare, I am considering attempting the
+separate-devices bonus and the tableside-chat bonus.
 
 ```
