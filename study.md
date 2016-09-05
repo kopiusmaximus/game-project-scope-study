@@ -22,7 +22,7 @@ A wireframe of what your game project will look like.
 Wireframe sketches:
 ```
 
-[Wireframe 1](./assets/image/wireframe-1.png)
+[Wireframe 1](./assets/images/wireframe-1.png)
 
 ## Data Structure
 
