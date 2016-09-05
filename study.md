@@ -27,7 +27,23 @@ Wireframe sketches:
 ## Data Structure
 
 ```md
-The data structure you plan to use.
+In order to stay consistent with the provided API, the following data structures
+will be used to represent key entities:
+
+Entity: User
+Every user will be represented by a "user" object every "user" object will
+include a "games" property, whose value will be an array of "game" objects
+
+Entity: Game
+Every "game" object will include several properties, including "cells", two
+players, and a boolean flag indicating whether the game is over.
+
+Entity: Board
+The value of "cells" for any given "game" object will be an array of 9
+single-character strings, representing the current state of the board in that
+game. A valid move will be an event, triggered by a click, that updates the
+value of a single element in "cells".
+
 
 ```
 
