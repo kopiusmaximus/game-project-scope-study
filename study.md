@@ -17,7 +17,7 @@ Submit detailed answers to these in this file via a pull request.
 ## Project Wireframes
 
 [Wireframe 1](./assets/images/wireframe-1.png)
-[Wireframe 2](./assets/images/wireframe-1.png)
+[Wireframe 2](./assets/images/wireframe-2.png)
 
 ## Data Structure
 
