@@ -20,7 +20,8 @@ Submit detailed answers to these in this file via a pull request.
 A wireframe of what your game project will look like.
 
 Wireframe sketches:
-<link>
+[Wireframe 1](./assets/image/wireframe-1.png)
+
 
 ```
 
@@ -44,7 +45,6 @@ single-character strings, representing the current state of the board in that
 game. A valid move will be an event, triggered by a click, that updates the
 value of a single element in "cells".
 
-
 ```
 
 ## Representing markup of the game board in JS
@@ -64,7 +64,8 @@ How you plan to approach this project
 ## User Stories
 
 ```md
-4-8 user stories for your game project:
+The following user stories describe key aspect's of the applications's
+functionality from a user perspective:
 
 As a user, I want to create an account so I can keep track of games I have
 played.
