@@ -62,7 +62,7 @@ How you plan to approach this project
 ## User Stories
 
 ```md
-The following user stories describe key aspect's of the applications's
+The following user stories describe key aspects of the applications's
 functionality from a user perspective:
 
 As a user, I want to create an account so I can keep track of games I have
@@ -107,8 +107,9 @@ dashboard tab that allows players to interpret their game history at a glance,
 include win-loss record and average duration (in turns) of each game they have
 played.
 
-I also plan to incorporate a sleek, minimalist aesthetic that draws and holds
-user focus on the game board.
+I also plan to incorporate a sleek, minimalist aesthetic with smooth curves and
+lightly shadowed edges, easy on the eyes but drawing and holding user focus on
+the game board.
 
 ```
 
